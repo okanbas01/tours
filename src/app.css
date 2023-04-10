@@ -1,0 +1,73 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tour {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 40px;
+  height: 450px;
+  position: relative;
+}
+
+.tour-img {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 20px;
+}
+
+.tour-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tour-info {
+  /* diğer stil ayarları */
+  height: 40%;
+  overflow: auto;
+}
+
+.tour-info h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tour-info h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tour-price {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  top: -60px;
+  right: 10px;
+  color: blue;
+}
+
+.tour-price h6 {
+  font-size: 24px;
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
